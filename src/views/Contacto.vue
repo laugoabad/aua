@@ -15,6 +15,7 @@
               :value="form.nombre"
               class="form-control"
               id="nombre"
+              name="nombre"
             />
           </div>
           <div class="form-group col-md-6 ">
@@ -25,6 +26,7 @@
               :value="form.email"
               class="form-control"
               id="email"
+              name="email"
             />
           </div>
         </div>
@@ -38,6 +40,7 @@
               :value="form.tel"
               class="form-control"
               id="telefono"
+              name="telefono"
             />
           </div>
         </div>
