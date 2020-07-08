@@ -153,6 +153,7 @@ export default {
     },
 
     encode (data) {
+      console.log(data);
       return Object.keys(data)
         .map(
           key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
