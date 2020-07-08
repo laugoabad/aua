@@ -175,9 +175,9 @@ export default {
       axios.post("/contacto",datos, axiosConfig);
 
       
-            this.$data.form.nombre = '';
-            this.$data.form.email ='';
-            this.$data.form.tel = ''
+            this.form.nombre = '';
+            this.form.email ='';
+            this.form.tel = '';
     
     }
   },
