@@ -163,7 +163,7 @@ export default {
         .join("&");
     },
 
-    agregarContacto(e) {
+    agregarContacto() {
       this.form.push(this.nuevaEntrada);
       localStorage.setItem("local-form", JSON.stringify(this.form));
 
