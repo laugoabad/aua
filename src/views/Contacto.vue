@@ -2,49 +2,35 @@
   <div>
     <section class="padd-top w-75">
       <h1 class="titulo-seccion">CONTACTO</h1>
-      
 
-      <form @submit.prevent="agregarContacto()" name="contacto" method="post" netlify netlify-honeypot="bot-field" class="col col-lg-11 ml-auto mr-auto">
+      <form
+        @submit.prevent="agregarContacto()"
+        name="contacto"
+        method="post"
+        netlify
+        netlify-honeypot="bot-field"
+        class="col col-lg-11 ml-auto mr-auto"
+      >
         <input type="hidden" name="form-name" value="contacto" />
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="nombre" class="texto-chico">Nombre y Apellido</label>
-            <input
-              type="text"
-              v-model="form.nombre"
-              class="form-control"
-              id="nombre"
-              name="nombre"
-            />
+            <input type="text" v-model="form.nombre" class="form-control" id="nombre" name="nombre" />
           </div>
-          <div class="form-group col-md-6 ">
+          <div class="form-group col-md-6">
             <label for="email" class="texto-chico">Email</label>
-            <input
-              type="email" 
-              v-model="form.email"
-              class="form-control"
-              id="email"
-              name="email"
-            />
+            <input type="email" v-model="form.email" class="form-control" id="email" name="email" />
           </div>
         </div>
 
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="telefono" class="texto-chico">Teléfono</label>
-            <input
-              type="text"
-              v-model="form.tel"
-              class="form-control"
-              id="telefono"
-              name="telefono"
-            />
+            <input type="text" v-model="form.tel" class="form-control" id="telefono" name="telefono" />
           </div>
         </div>
 
-
-          
-           <!--<div class="form-group col-md-6">
+        <!--<div class="form-group col-md-6">
             <label for="direccion" class="texto-chico">Dirección</label>
             <input
               type="text"
@@ -124,9 +110,8 @@
             rows="5"
             id="mensaje"
           ></textarea>
-        </div> -->
+        </div>-->
 
-        
         <button type="submit" class="btn btn-primary texto-normal">Enviar</button>
       </form>
     </section>
@@ -134,17 +119,17 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 export default {
   name: "contacto",
   data() {
     return {
       form: {
-         nombre:'',
-         email: '',
-         tel:''
+        nombre: "",
+        email: "",
+        tel: "",
       },
-        
+
       nuevaEntrada: {}
     };
   },
@@ -154,8 +139,8 @@ export default {
     //   this.nuevaEntrada[input] = value;
     // },
 
-    encode (data) {
-      console.log('data', data);
+    encode(data) {
+      console.log("data", data);
       return Object.keys(data)
         .map(
           key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
@@ -170,25 +155,23 @@ export default {
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
-      let datos = this.encode({"form-name": "contacto", ...this.form});
-        
-      axios.post("/contacto",datos, axiosConfig);
+      let datos = this.encode({ "form-name": "contacto", ...this.form });
 
-      
-            this.form.nombre = '';
-            this.form.email ='';
-            this.form.tel = '';
-    
+      axios.post("/contacto", datos, axiosConfig);
+
+      this.form.nombre = "";
+      this.form.email = "";
+      this.form.tel = "";
     }
   },
-     
-  created: function(){
-    let datosDB = JSON.parse(localStorage.getItem('local-form'));
-      if (datosDB === null) {
-        this.form = []
-      }else{
-        this.form = datosDB
-      }
+
+  created: function() {
+    let datosDB = JSON.parse(localStorage.getItem("local-form"));
+    if (datosDB === null) {
+      this.form = [];
+    } else {
+      this.form = datosDB;
+    }
   }
 };
 </script>
