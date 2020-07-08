@@ -175,7 +175,7 @@ export default {
       axios.post(
         "/contacto",datos, axiosConfig);
 
-      // this.nuevaEntrada = {}
+      this.nuevaEntrada = {}
     }
   },
      
