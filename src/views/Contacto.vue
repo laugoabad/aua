@@ -4,7 +4,7 @@
       <h1 class="titulo-seccion">CONTACTO</h1>
       
 
-      <form @submit.prevent="agregarContacto()" name="contacto" method="post" netlify netlify-honeypot="bot-field" class="col col-lg-11 ml-auto mr-auto">
+      <form @submit.prevent="agregarContacto()" name="contacto" method="post" netlify netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" class="col col-lg-11 ml-auto mr-auto">
         <input type="hidden" name="form-name" value="contacto" />
         <div class="form-row">
           <div class="form-group col-md-6">
@@ -167,14 +167,13 @@ export default {
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
-      axios.post(
-        "/contacto",
-        this.encode({
+      let datos = this.encode({
           "form-name": "contacto",
           ...this.form
-        }),
-        axiosConfig
-      );
+        });
+        console.log('antes de axios', datos);
+      axios.post(
+        "/contacto",datos, axiosConfig);
        console.log('ya paso por axios',this.encode({"form-name": "contacto",...this.form}))
 
       this.nuevaEntrada = {}
