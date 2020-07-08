@@ -163,7 +163,7 @@ export default {
         .join("&");
     },
 
-    agregarContacto() {
+    agregarContacto(e) {
       this.form.push(this.nuevaEntrada);
       localStorage.setItem("local-form", JSON.stringify(this.form));
 
@@ -172,10 +172,13 @@ export default {
       };
       let datos = this.encode({"form-name": "contacto", ...this.form});
         
-      axios.post(
-        "/contacto",datos, axiosConfig);
+      axios.post("/contacto",datos, axiosConfig);
 
-      this.nuevaEntrada = {}
+      
+            this.$data.form.nombre = '';
+            this.$data.form.email ='';
+            this.$data.form.tel = ''
+    
     }
   },
      
