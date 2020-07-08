@@ -143,7 +143,7 @@ export default {
   data() {
     return {
       form: [],
-      nuevaEntrada: {nombre:'', email: '', tel:'' }
+      nuevaEntrada: {}
     };
   },
 
@@ -153,7 +153,7 @@ export default {
     },
 
     encode (data) {
-      console.log(data);
+      console.log('data', data);
       return Object.keys(data)
         .map(
           key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
