@@ -139,7 +139,12 @@ export default {
   name: "contacto",
   data() {
     return {
-      form: [],
+      form: {
+         nombre:'',
+         email: '',
+         tel:''
+      },
+        
       nuevaEntrada: {}
     };
   },
@@ -166,10 +171,9 @@ export default {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
       let datos = this.encode({"form-name": "contacto", ...this.form});
-        console.log('antes de axios', datos);
+        
       axios.post(
         "/contacto",datos, axiosConfig);
-       console.log('ya paso por axios', datos)
 
       // this.nuevaEntrada = {}
     }
