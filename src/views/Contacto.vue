@@ -40,7 +40,7 @@
               id="telefono"
             />
           </div>
-          </div>
+        </div>
 
 
           
@@ -134,7 +134,7 @@
 </template>
 
 <script>
-
+import axios from 'axios'
 export default {
   name: "contacto",
   data() {
