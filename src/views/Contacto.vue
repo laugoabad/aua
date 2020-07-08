@@ -11,8 +11,7 @@
             <label for="nombre" class="texto-chico">Nombre y Apellido</label>
             <input
               type="text"
-              @input="updateForm('nombre', $event.target.value)"
-              :value="form.nombre"
+              v-model="form.nombre"
               class="form-control"
               id="nombre"
               name="nombre"
@@ -22,8 +21,7 @@
             <label for="email" class="texto-chico">Email</label>
             <input
               type="email" 
-              @input="updateForm('email', $event.target.value)"
-              :value="form.email"
+              v-model="form.email"
               class="form-control"
               id="email"
               name="email"
@@ -36,8 +34,7 @@
             <label for="telefono" class="texto-chico">Teléfono</label>
             <input
               type="text"
-              @input="updateForm('tel', $event.target.value)"
-              :value="form.tel"
+              v-model="form.tel"
               class="form-control"
               id="telefono"
               name="telefono"
@@ -148,9 +145,9 @@ export default {
   },
 
   methods: {
-    updateForm(input, value) {
-      this.nuevaEntrada[input] = value;
-    },
+    // updateForm(input, value) {
+    //   this.nuevaEntrada[input] = value;
+    // },
 
     encode (data) {
       console.log('data', data);
@@ -168,14 +165,11 @@ export default {
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
-      let datos = this.encode({
-          "form-name": "contacto",
-          ...this.form
-        });
+      let datos = this.encode({"form-name": "contacto", ...this.form});
         console.log('antes de axios', datos);
       axios.post(
         "/contacto",datos, axiosConfig);
-       console.log('ya paso por axios',this.encode({"form-name": "contacto",...this.form}))
+       console.log('ya paso por axios', datos)
 
       // this.nuevaEntrada = {}
     }
