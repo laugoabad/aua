@@ -35,7 +35,16 @@ Vue.use(VueRouter)
       name: 'Admin',
       component: () => import('../views/Admin.vue')
     },
-   
+    {
+      path: '/thanks',
+      name: 'success',
+      component: () => import('../components/SubmissionSuccessful.vue')
+    },
+    {
+      path: '/404',
+      name: 'fail',
+      component: () => import('../components/SubmissionFail.vue')
+    },
 ]
 
 const router = new VueRouter({

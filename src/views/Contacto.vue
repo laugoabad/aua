@@ -145,7 +145,13 @@ export default {
       };
       let datos = this.encode({ "form-name": "contacto", ...this.form });
 
-      axios.post("/contacto", datos, axiosConfig);
+      axios.post("/contacto", datos, axiosConfig)
+      .then(() => {
+        this.$router.push('thanks')
+      })
+      .catch(() => {
+        this.$router.push('404')
+      })
 
       this.form.nombre = "";
       this.form.email = "";
