@@ -32,13 +32,7 @@
 
         <!--<div class="form-group col-md-6">
             <label for="direccion" class="texto-chico">Dirección</label>
-            <input
-              type="text"
-              @input="updateForm('dire', $event.target.value)"
-              :value="form.dire"
-              class="form-control"
-              id="direccion"
-            />
+            <input type="text" v-model="form.dire" class="form-control" id="direccion" name="direccion" />
           </div> 
         </div>
 
@@ -100,17 +94,11 @@
               id="codigo"
             />
           </div>
-        </div> 
+        </div>--> 
          <div class="form-group">
           <label for="mensaje" class="texto-chico">Comentario:</label>
-          <textarea
-            @input="updateForm('mensaje', $event.target.value)"
-            :value="form.mensaje"
-            class="form-control"
-            rows="5"
-            id="mensaje"
-          ></textarea>
-        </div>-->
+          <textarea v-model="form.mensaje" class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+        </div>
 
         <button type="submit" class="btn btn-primary texto-normal">Enviar</button>
       </form>
