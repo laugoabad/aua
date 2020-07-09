@@ -1,8 +1,10 @@
 <template>
   <div class="padd-top">
-    <h1>You're Awesome! Thank you for your submission!</h1>
+    <h1 class="mt-4 p-4">Gracias por tu contacto! Te contestamos lo antes posible!</h1>
     <router-link to="/">
-      <button>Back to form</button>
+     <button class="btn btn-default mt-4 px-4 py-2 texto-chico d-flex">
+        Volver
+    </button>
     </router-link>
   </div>
 </template>
