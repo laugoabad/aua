@@ -9,24 +9,24 @@
         method="post"
         netlify
         netlify-honeypot="bot-field"
-        class="col col-lg-11 ml-auto mr-auto"
+        class=" ml-auto mr-auto"
       >
         <input type="hidden" name="form-name" value="contacto" />
         <div class="form-row">
-          <div class="form-group col-md-6">
+          <div class="form-group col-lg-6">
             <label for="nombre" class="texto-chico">Nombre y Apellido</label>
-            <input type="text" v-model="form.nombre" class="form-control" id="nombre" name="nombre" />
+            <input type="text" v-model="form.nombre" class="form-control texto-chico" id="nombre" name="nombre" />
           </div>
-          <div class="form-group col-md-6">
+          <div class="form-group col-lg-6">
             <label for="email" class="texto-chico">Email</label>
-            <input type="email" v-model="form.email" class="form-control" id="email" name="email" />
+            <input type="email" v-model="form.email" class="form-control texto-chico" id="email" name="email" />
           </div>
         </div>
 
         <div class="form-row">
-          <div class="form-group col-md-6">
+          <div class="form-group col-lg-6">
             <label for="telefono" class="texto-chico">Teléfono</label>
-            <input type="text" v-model="form.tel" class="form-control" id="telefono" name="telefono" />
+            <input type="text" v-model="form.tel" class="form-control texto-chico" id="telefono" name="telefono" />
           </div>
         </div>
 
@@ -97,7 +97,7 @@
         </div>--> 
          <div class="form-group">
           <label for="mensaje" class="texto-chico">Comentario:</label>
-          <textarea v-model="form.mensaje" class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+          <textarea v-model="form.mensaje" class="form-control texto-chico" rows="5" id="mensaje" name="mensaje"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary texto-normal">Enviar</button>
