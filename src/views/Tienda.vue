@@ -128,7 +128,7 @@ export default {
           precio: 6900
         },
         {
-          imagenes: ["tote-1.jpg","tote-2.jpg", "tote-3.jpg", "tote-4.jpg"],
+          imagenes: ["tote-1.jpeg","tote-2.jpeg", "tote-3.jpeg", "tote-4.jpeg"],
           descrCorta: "Tote-Bag en hilo de algodón",
           descrLarga: "Bolso tejido a mano en algodón color gris.\nEntran muchísmas cosas y casi no ocupa espacio vacío. \nViene en varios colores",
           precio: 700
