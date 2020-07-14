@@ -116,7 +116,7 @@ export default {
       mp: "Cobrar_MercadoPago-rr.png",
       arreglo: [
         {
-          imagenes: ["manta-1-5.jpg","manta-1-3.jpg", "manta-1-4.jpg","manta-1-6.jpg", "manta-1-1.png"],
+          imagenes: ["manta-1-5.jpg","manta-1-3.jpg", "manta-1-4.jpg","manta-1-6.jpg", "manta-1-1.png", "manta-1-7.jpg", "manta-1-8.jpg"],
           descrCorta: "Manta pura lana",
           descrLarga: "Manta tejida a mano en pura lana, suave y abrigada.\nMide 90 x 180cm y viene en color crudo, gris, visón claro y chocolate.\nLas hacemos en distintos puntos y en general en pares para usar en cama doble",
           precio: 5900
@@ -128,12 +128,19 @@ export default {
           precio: 6900
         },
         {
+          imagenes: ["tote-1.jpg","tote-2.jpg", "tote-3.jpg", "tote-4.jpg"],
+          descrCorta: "Tote-Bag en hilo de algodón",
+          descrLarga:
+            "Bolso tejido a mano en algodón color gris.\nEntran muchísmas cosas y casi no ocupa espacio vacío. \nViene en varios colores"          precio: 750
+        },
+        {
           imagenes: ["bolso-pera-1.png","bolso-pera-2.png", "bolso-pera-4.png", "bolso-pera-5.png"],
           descrCorta: "Bolso bandolera",
           descrLarga:
-            "Bolso tejido a mano súpe práctico y canchero. \nViene en varias combinaciones de colores y también se puede hacer con la correa más corta.",
+            "Bolso tejido a mano súper práctico y canchero. \nViene en varias combinaciones de colores y también se puede hacer con la correa más corta.",
           precio: 750
         },
+
         {
         imagenes: ["almohadon-1.png", "almohadon-2.png", "almohadon-3.png",],
           descrCorta: "Almohadón en vellón de lana",
