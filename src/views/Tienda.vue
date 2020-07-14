@@ -130,8 +130,8 @@ export default {
         {
           imagenes: ["tote-1.jpg","tote-2.jpg", "tote-3.jpg", "tote-4.jpg"],
           descrCorta: "Tote-Bag en hilo de algodón",
-          descrLarga:
-            "Bolso tejido a mano en algodón color gris.\nEntran muchísmas cosas y casi no ocupa espacio vacío. \nViene en varios colores"          precio: 750
+          descrLarga: "Bolso tejido a mano en algodón color gris.\nEntran muchísmas cosas y casi no ocupa espacio vacío. \nViene en varios colores",
+          precio: 700
         },
         {
           imagenes: ["bolso-pera-1.png","bolso-pera-2.png", "bolso-pera-4.png", "bolso-pera-5.png"],
