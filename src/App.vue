@@ -14,7 +14,9 @@
         </ul>
       </div>
     </nav>
+    <transition>
     <router-view />
+    </transition>
     <div>
       <footer id="foot">
         <foot></foot>
