@@ -14,8 +14,8 @@
         </ul>
       </div>
     </nav>
-    <transition>
-    <router-view />
+    <transition name="fade">
+      <router-view />
     </transition>
     <div>
       <footer id="foot">
