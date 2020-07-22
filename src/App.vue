@@ -94,6 +94,13 @@ nav {
   margin: 2em auto 0.5em auto;
 }
 
+.fade-enter-active, .fade-leave-active {
+   transition: opacity 1s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity :0;
+}
 @media (min-width: 768px) {
   .navbar-brand img {
     width: 19em;
