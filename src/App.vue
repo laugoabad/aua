@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
     <nav class="navbar-expand fixed-top">
-     <transition name="fade" mode="out-in">
+     <transition name="fade">
         <router-link class="navbar-brand " to="/">
         <img src="./assets/img/aua-invierno.png" alt="hoja" />
       </router-link>
