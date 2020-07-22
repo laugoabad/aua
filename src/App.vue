@@ -1,11 +1,11 @@
 <template>
   <div id="app" class="container-fluid">
     <nav class="navbar-expand fixed-top">
-    
+     <transition name="fade" mode="in-out">
         <router-link class="navbar-brand " to="/">
         <img src="./assets/img/aua-invierno.png" alt="hoja" />
       </router-link>
-   
+     </transition>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto mr-auto text-center navegacion">
           <li v-for="(item, index) of arregloRouter" :key="index" class="nav-item">
@@ -14,9 +14,7 @@
         </ul>
       </div>
     </nav>
-    <transition name="fade">
-      <router-view />
-    </transition>
+    <router-view />
     <div>
       <footer id="foot">
         <foot></foot>
