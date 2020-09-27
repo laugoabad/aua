@@ -79,7 +79,7 @@ export default {
 }
 
 .titulo-home {
-  color: $invierno;
+  color: $primavera;
   font-size: 5.6em;
   letter-spacing: 0.2em;
   margin-top: 4.2em;
