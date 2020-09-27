@@ -4,12 +4,12 @@
     <div class="fondo">
       <div class="overlay"></div>
       <video playsinline autoplay muted loop allowfullscreen preload>
-        <source :src="getImgUrl(estacion[1].imagen)" type="video/mp4" />
+        <source :src="getImgUrl(estacion[2].imagen)" type="video/mp4" />
       </video>
       <div class="container-fluid h-100">
         <div class="h-100 text-center">
           <div class="w-100">
-            <div class="titulo-home">{{estacion[1].nombre}}</div>
+            <div class="titulo-home">{{estacion[2].nombre}}</div>
            
           </div>
         </div>
@@ -33,7 +33,8 @@ export default {
     return {
       estacion: [
         { nombre: "OTOÑO" , imagen: "otono.mp4"},
-        { nombre: "INVIERNO" , imagen: "invierno.mp4"}
+        { nombre: "INVIERNO" , imagen: "invierno.mp4"},
+        { nombre: "PRIMAVERA", imagen: "primavera.mp4"}
       ],
       
     };
