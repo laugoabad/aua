@@ -74,7 +74,7 @@ nav {
   }
   .nav-item a:hover {
     text-decoration: none;
-    border-top: 1px solid $invierno ;
+    background-color: $verde-seco-2;
   }
 }
 .logo {
