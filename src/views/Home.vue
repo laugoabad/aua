@@ -7,11 +7,8 @@
         <source :src="getImgUrl(estacion[3].imagen)" type="video/mp4" />
       </video>
       <div class="container-fluid h-100">
-        <div class="h-100 text-center">
-          <div class="w-100">
-            <div class="titulo-home">{{estacion[3].nombre}}</div>
-           
-          </div>
+        <div class="h-100 w-100 align-middle">
+            <div class="titulo-home">AUA</div>
         </div>
       </div>
     </div>
@@ -32,10 +29,10 @@ export default {
   data() {
     return {
       estacion: [
-        { nombre: "OTOÑO" , imagen: "otono.mp4"},
-        { nombre: "INVIERNO" , imagen: "invierno.mp4"},
-        { nombre: "PRIMAVERA", imagen: "primavera.mp4"},
-         { nombre: "VERANO", imagen: "verano.mp4"}
+        { imagen: "otono.mp4"},
+        { imagen: "invierno.mp4"},
+        { imagen: "primavera.mp4"},
+        { imagen: "verano.mp4"}
       ],
       
     };
@@ -80,10 +77,10 @@ export default {
 }
 
 .titulo-home {
-  color: $ciruela;
+  font-family: 'Roboto', sans-serif;
+  color: $rojo;
   font-size: 5.6em;
-  letter-spacing: 0.2em;
-  margin-top: 4.2em;
+  font-weight: 800;
 }
 
 figcaption {
@@ -102,9 +99,8 @@ figcaption {
     height: 100vh;
 }
   .titulo-home {
-    font-size: 6em;
-    letter-spacing: 0.8em;
-    margin-top: 6em;
+    font-size: 7em;
+    letter-spacing: 0.3em;
   }
 
   figcaption {
@@ -118,9 +114,21 @@ figcaption {
 /*---------------------------------------------------------------------------*/
 @media (min-width: 1024px) {
   .titulo-home {
-    font-size: 7em;
-    margin-top: 6em;
+    font-size: 15em;
+    margin-top: 2.4em;
   }
+  figcaption {
+    padding-bottom: 1.6em;
+  }
+  .tienda {
+      margin-top: -22em;
+    }
+}
+
+@media (min-width: 1440px) {
+  .titulo-home {
+    font-size: 20em;
+   }
   figcaption {
     padding-bottom: 1.6em;
   }
