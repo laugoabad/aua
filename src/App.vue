@@ -2,7 +2,7 @@
   <div id="app" class="container-fluid">
     <nav class="navbar-expand fixed-top">
         <router-link class="navbar-brand " to="/">
-        <img src="./assets/img/aua-invierno.png" alt="hoja" />
+        <img src="./assets/img/aua-invierno.png" class="m-2" alt="hoja" />
       </router-link>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto mr-auto text-center navegacion">
