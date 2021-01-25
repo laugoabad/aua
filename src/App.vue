@@ -60,7 +60,7 @@ nav {
     color: $off-black;
 
     &.router-link-exact-active {
-      color: $invierno;
+      color: $verde-seco;
       text-decoration: none;
       font-weight: 800;
     }
