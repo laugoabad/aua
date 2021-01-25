@@ -6,11 +6,11 @@
       <video playsinline autoplay muted loop allowfullscreen preload>
         <source :src="getImgUrl(estacion[3].imagen)" type="video/mp4" />
       </video>
-      <div class="container-fluid h-100">
-        <div class="h-100 w-100 align-middle">
+      <!-- <div class="container-fluid h-100">
+        <div class="d-flex justify-content-center align-items-center">
             <div class="titulo-home">AUA</div>
         </div>
-      </div>
+      </div> -->
     </div>
      <figcaption>Thanks to PIXABAY for the video</figcaption>
     <tienda class="tienda"></tienda>
