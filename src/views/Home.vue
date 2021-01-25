@@ -34,7 +34,8 @@ export default {
       estacion: [
         { nombre: "OTOÑO" , imagen: "otono.mp4"},
         { nombre: "INVIERNO" , imagen: "invierno.mp4"},
-        { nombre: "PRIMAVERA", imagen: "primavera.mp4"}
+        { nombre: "PRIMAVERA", imagen: "primavera.mp4"},
+         { nombre: "VERANO", imagen: "verano.mp4"}
       ],
       
     };
