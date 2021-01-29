@@ -1,15 +1,18 @@
 <template>
   <div id="app" class="container-fluid">
     <nav class="navbar-expand fixed-top">
-        <router-link class="navbar-brand " to="/">
-        <img src="./assets/img/aua-invierno.png" class="m-2" alt="hoja" />
-      </router-link>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto mr-auto text-center navegacion">
+       
+      <div class="collapse navbar-collapse row">
+         <router-link class="navbar-brand col-md-12 col-lg-3" to="/">
+            <img src="./assets/img/aua.jpg" class="m-2" alt="hoja" />
+         </router-link>
+         <div class="navegacion">
+        <ul class="navbar-nav ml-auto mr-auto text-center col-md-12 col-lg-9">
           <li v-for="(item, index) of arregloRouter" :key="index" class="nav-item">
             <router-link v-bind:to="item.ruta">{{item.nombre}}</router-link>
           </li>
         </ul>
+        </div>
       </div>
     </nav>
     <transition name="fade">
@@ -60,7 +63,7 @@ nav {
     color: $off-black;
 
     &.router-link-exact-active {
-      color: $verde-seco;
+      color: $grey;
       text-decoration: none;
       font-weight: 800;
     }
@@ -74,7 +77,8 @@ nav {
   }
   .nav-item a:hover {
     text-decoration: none;
-    background-color: $verde-seco-2;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
   }
 }
 .logo {
@@ -91,7 +95,7 @@ nav {
   width: 17em;
 }
 .navegacion {
-  margin: 2em auto 0.5em auto;
+  margin: 0.5em auto;
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -119,7 +123,7 @@ nav {
     }
   }
   .navegacion {
-    margin: 4em auto 1em auto;
+    margin: 1em auto;
   }
 }
 
