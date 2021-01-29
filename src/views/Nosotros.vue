@@ -30,7 +30,7 @@ export default {
 }
 p {
   margin: 0em auto;
-  padding: 1.4em;
+  padding: 1em;
   background: rgba(255, 255, 255, 0.5);
   
 }
