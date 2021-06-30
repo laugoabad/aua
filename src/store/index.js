@@ -8,10 +8,10 @@ export default new Vuex.Store({
     arreglo: [
       {
         imagenes: [
-          "manta-3-1.JPEG",
-          "manta-3-2.JPEG",
-          "manta-3-3.JPEG",
-          "manta-3-4.JPEG",
+          // "manta-3-1.JPEG",
+          "manta-3-2.PNG",
+          // "manta-3-3.JPEG",
+          // "manta-3-4.JPEG",
         ],
         descrCorta: "Manta pura lana",
         descrLarga: "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo. En stock color crudo",
