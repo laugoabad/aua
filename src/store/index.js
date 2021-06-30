@@ -6,30 +6,16 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     arreglo: [
-      // {
-      //   imagenes: [
-      //     // "manta-3-1.JPEG",
-      //     "manta-3-2.PNG",
-      //     // "manta-3-3.JPEG",
-      //     // "manta-3-4.JPEG",
-      //   ],
-      //   descrCorta: "Manta pura lana",
-      //   descrLarga: "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo. En stock color crudo",
-      //   precio: 9500
-      // },
       {
         imagenes: [
-          "manta-1-5.jpg",
-          "manta-1-3.jpg",
-          "manta-1-4.jpg",
-          "manta-1-6.jpg",
-          "manta-1-1.png",
-          "manta-1-7.jpg",
-          "manta-1-8.jpg",
+          "manta-3-1.jpg",
+          "manta-3-2.jpg",
+          "manta-3-3.jpg",
+          "manta-3-4.jpg",
         ],
         descrCorta: "Manta pura lana",
         descrLarga:
-          "Manta tejida a mano en pura lana, suave y abrigada.\nMide 100 x 180cm y viene en color crudo, gris, visón claro y chocolate.\nLas hacemos en distintos puntos y en general en pares para usar en cama doble",
+          "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nEn stock color crudo.",
         precio: 9500,
       },
       {
