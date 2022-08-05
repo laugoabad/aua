@@ -60,10 +60,10 @@ nav {
   padding: 0.3em;
   background-color: white;
   a {
-    color: $off-black;
+    color: $brown;
 
     &.router-link-exact-active {
-      color: black;
+      color: $ocre;
       text-decoration: none;
       font-weight: 800;
       font-size: 1.5em;
