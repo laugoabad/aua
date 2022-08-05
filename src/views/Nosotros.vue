@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       texto:
-        "AUA es un emprendimiento comprometido con el medio ambiente y la revalorización de los objetos hechos a mano.\n\nUsamos materiales naturales, reciclables y sustentables como la lana, el algodón y otras fibras naturales.\n\nNuestra revalorización de lo hecho a mano se traduce en el tiempo dedicado a cada objeto que lo transforma en un objeto con sentido, con alma."
+        "AUA es un emprendimiento comprometido con el medio ambiente y la revalorización de los objetos hechos a mano.\n\nEsto se traduce en el tiempo dedicado a la búsqueda de los materiales y a la experimentación de técnicas artesanales, transformando cada pieza en un objeto con sentido, con alma propia."
     };
   }
 };
