@@ -66,6 +66,7 @@ nav {
       color: black;
       text-decoration: none;
       font-weight: 800;
+      font-size: 1.5em;
     }
   }
 
@@ -77,6 +78,8 @@ nav {
   }
   .nav-item a:hover {
     text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5em;
     // border-top: 1px solid $grey;
     // border-bottom: 1px solid $grey;
   }
