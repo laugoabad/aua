@@ -63,7 +63,7 @@ nav {
     color: $off-black;
 
     &.router-link-exact-active {
-      color: $grey;
+      color: black;
       text-decoration: none;
       font-weight: 800;
     }
@@ -77,8 +77,8 @@ nav {
   }
   .nav-item a:hover {
     text-decoration: none;
-    border-top: 1px solid $grey;
-    border-bottom: 1px solid $grey;
+    // border-top: 1px solid $grey;
+    // border-bottom: 1px solid $grey;
   }
 }
 .logo {
