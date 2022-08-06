@@ -87,7 +87,7 @@ figcaption {
   padding-bottom: 0.8em;
 }
 .tienda {
-  margin-top: -2em;
+  margin-top: 4em;
 }
 
 
