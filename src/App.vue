@@ -65,8 +65,6 @@ nav {
     &.router-link-exact-active {
       color: $ocre;
       text-decoration: none;
-      font-weight: 700;
-      font-size: 1.5em;
     }
   }
 
@@ -78,8 +76,7 @@ nav {
   }
   .nav-item a:hover {
     text-decoration: none;
-    font-weight: 800;
-    font-size: 1.5em;
+    font-weight: 600;
     // border-top: 1px solid $grey;
     // border-bottom: 1px solid $grey;
   }
