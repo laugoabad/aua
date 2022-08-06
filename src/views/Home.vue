@@ -3,9 +3,9 @@
 
     <div class="fondo">
       <div class="overlay"></div>
-      <video playsinline autoplay muted loop allowfullscreen preload>
+      <!-- <video playsinline autoplay muted loop allowfullscreen preload>
         <source :src="getImgUrl(estacion[1].imagen)" type="video/mp4" />
-      </video>
+      </video> -->
       <!-- <div class="container-fluid h-100">
         <div class="d-flex justify-content-center align-items-center">
             <div class="titulo-home">AUA</div>

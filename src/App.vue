@@ -65,7 +65,7 @@ nav {
     &.router-link-exact-active {
       color: $ocre;
       text-decoration: none;
-      font-weight: 800;
+      font-weight: 700;
       font-size: 1.5em;
     }
   }
