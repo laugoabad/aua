@@ -4,7 +4,7 @@
        
       <div class="collapse navbar-collapse row">
          <router-link class="navbar-brand col-md-12 col-lg-3" to="/">
-            <img src="./assets/img/ginko.png" class="m-2" alt="hoja" />
+            <img src="./assets/img/logo.png" class="m-2" alt="hoja" />
          </router-link>
          <div class="navegacion">
         <ul class="navbar-nav ml-auto mr-auto text-center col-md-12 col-lg-9">
