@@ -12,7 +12,6 @@
         </div>
       </div> -->
     </div>
-     <figcaption>Thanks to PIXABAY for the video</figcaption>
     <tienda class="tienda"></tienda>
   </div>
 </template>
@@ -28,12 +27,12 @@ export default {
 
   data() {
     return {
-      estacion: [
-        { imagen: "otono.mp4"},
-        { imagen: "invierno.mp4"},
-        { imagen: "primavera.mp4"},
-        { imagen: "verano.mp4"}
-      ],
+      // estacion: [
+      //   { imagen: "otono.mp4"},
+      //   { imagen: "invierno.mp4"},
+      //   { imagen: "primavera.mp4"},
+      //   { imagen: "verano.mp4"}
+      // ],
       
     };
   },
