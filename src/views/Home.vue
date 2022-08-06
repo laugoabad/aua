@@ -106,7 +106,7 @@ figcaption {
     font-size: 1em;
   }
   .tienda {
-      margin-top: -20em;
+      margin-top: 6em;
     }
 }
 
