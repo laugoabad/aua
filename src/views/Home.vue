@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <div class="fondo">
+    <!-- <div class="fondo">
       <div class="overlay"></div>
-      <!-- <video playsinline autoplay muted loop allowfullscreen preload>
+      <video playsinline autoplay muted loop allowfullscreen preload>
         <source :src="getImgUrl(estacion[1].imagen)" type="video/mp4" />
-      </video> -->
-      <!-- <div class="container-fluid h-100">
+      </video>
+      <div class="container-fluid h-100">
         <div class="d-flex justify-content-center align-items-center">
             <div class="titulo-home">AUA</div>
         </div>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
     <tienda class="tienda"></tienda>
   </div>
 </template>
