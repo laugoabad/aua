@@ -87,7 +87,7 @@ figcaption {
   padding-bottom: 0.8em;
 }
 .tienda {
-  margin-top: -14em;
+  margin-top: -2em;
 }
 
 
@@ -119,9 +119,6 @@ figcaption {
   figcaption {
     padding-bottom: 1.6em;
   }
-  .tienda {
-      margin-top: -22em;
-    }
 }
 
 @media (min-width: 1440px) {
@@ -131,9 +128,6 @@ figcaption {
   figcaption {
     padding-bottom: 1.6em;
   }
-  .tienda {
-      margin-top: -22em;
-    }
 }
 
 </style>
