@@ -87,7 +87,7 @@ figcaption {
   padding-bottom: 0.8em;
 }
 .tienda {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 
@@ -105,9 +105,9 @@ figcaption {
   figcaption {
     font-size: 1em;
   }
-  .tienda {
-      margin-top: 6em;
-    }
+  // .tienda {
+  //     margin-top: 3em;
+  //   }
 }
 
 /*---------------------------------------------------------------------------*/
