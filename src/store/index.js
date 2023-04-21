@@ -8,37 +8,36 @@ export default new Vuex.Store({
     arreglo: [
       {
         imagenes: [
-          "manta-3-1.jpg",
-          "manta-3-2.jpg",
-          "manta-3-3.jpg",
-          "manta-3-4.jpg",
+          "manta-1-1.jpg",
+          "manta-1-2.jpg",
+          "manta-1-3.jpg",
         ],
-        descrCorta: "Manta pura lana",
+        descrCorta: "Manta pura lana MELANGE VISON",
         descrLarga:
-          "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nCOLOR MELANGE VISON",
+          "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nMide 90 x 180cm",
         precio: 28000,
       },
       {
         imagenes: [
-          "manta-1-5.jpg",
-          "manta-1-3.jpg",
-          "manta-1-4.jpg",
-          "manta-1-6.jpg",
-          "manta-1-1.png",
-          "manta-1-7.jpg",
-          "manta-1-8.jpg",
+          "manta-2-1.jpg",
+          "manta-2-2.jpg",
+          "manta-2-3.jpg",
         ],
-        descrCorta: "Manta pura lana",
+        descrCorta: "Manta pura lana MELANGE CHOCOLATE",
         descrLarga:
-          "Manta tejida a mano en pura lana, suave y abrigada.\nMide 100 x 180cm y viene en color crudo, gris, visón claro y chocolate.\nLas hacemos en distintos puntos y en general en pares para usar en cama doble",
-        precio: 9500,
+          "Manta tejida a mano en pura lana merino, suave y abrigada.\nLas hacemos en pares iguales para usar en cama doble\nMide 90 x 180cm",
+        precio: 28000,
       },
       {
-        imagenes: ["manta-2-2.png", "manta-2-1.jpg", "manta-2-3.jpg"],
-        descrCorta: "Manta pura lana baby Merino",
+        imagenes: [
+          "manta-3-1.jpg", 
+          "manta-3-2.jpg", 
+          "manta-3-3.jpg"
+        ],
+        descrCorta: "Manta pura lana GRIS",
         descrLarga:
-          "Manta tejida a mano en pura lana baby Merino, súper suave, esponjosa y abrigada.\nMide 100 x 180cm y viene sólo en color crudo",
-        precio: 9500,
+          "Manta tejida a mano en pura lana Merino, súper suave, esponjosa y abrigada.\nMide 90 x 180cm",
+        precio: 28000,
       },
       // {
       //   imagenes: ["tote-1.jpeg", "tote-2.jpeg", "tote-3.jpeg", "tote-4.jpeg"],
