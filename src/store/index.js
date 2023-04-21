@@ -15,7 +15,7 @@ export default new Vuex.Store({
         ],
         descrCorta: "Manta pura lana",
         descrLarga:
-          "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nEn stock color melange vison, melange chocolate y gris.",
+          "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nCOLOR MELANGE VISON",
         precio: 28000,
       },
       {
