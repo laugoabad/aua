@@ -12,7 +12,7 @@ export default new Vuex.Store({
           "manta-1-2.jpg",
           "manta-1-3.jpg",
         ],
-        descrCorta: "Manta pura lana MELANGE VISON",
+        descrCorta: "Manta pura lana \nMELANGE VISON",
         descrLarga:
           "Tejidas a mano en pura lana merino fina, muy suave. Mantienen tu calor sin agobiar y dejando respirar al cuerpo.\nMide 90 x 180cm",
         precio: 28000,
@@ -23,7 +23,7 @@ export default new Vuex.Store({
           "manta-2-2.jpg",
           "manta-2-3.jpg",
         ],
-        descrCorta: "Manta pura lana MELANGE CHOCOLATE",
+        descrCorta: "Manta pura lana \nMELANGE CHOCOLATE",
         descrLarga:
           "Manta tejida a mano en pura lana merino, suave y abrigada.\nLas hacemos en pares iguales para usar en cama doble\nMide 90 x 180cm",
         precio: 28000,
@@ -34,7 +34,7 @@ export default new Vuex.Store({
           "manta-3-2.jpg", 
           "manta-3-3.jpg"
         ],
-        descrCorta: "Manta pura lana GRIS",
+        descrCorta: "Manta pura lana \nGRIS",
         descrLarga:
           "Manta tejida a mano en pura lana Merino, súper suave, esponjosa y abrigada.\nMide 90 x 180cm",
         precio: 28000,
