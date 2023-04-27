@@ -57,7 +57,7 @@ export default {
 }
 
 nav {
-  padding: 0.3em;
+  padding: 0.5em 0.5em 1.5em 0.5em;
   background-color: white;
   a {
     color: $brown;
