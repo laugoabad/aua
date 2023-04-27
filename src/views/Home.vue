@@ -4,7 +4,7 @@
     <div class="fondo">
       <div class="overlay"></div>
       <video playsinline autoplay muted loop allowfullscreen preload>
-        <source :src="getImgUrl(estacion[0].imagen)" type="video/mp4" />
+        <source :src="getImgUrl(estacion[1].imagen)" type="video/mp4" />
       </video>
       <!-- <div class="container-fluid h-100">
         <div class="d-flex justify-content-center align-items-center">
