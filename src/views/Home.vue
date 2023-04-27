@@ -7,9 +7,9 @@
         <source :src="getImgUrl(estacion[0].imagen)" type="video/mp4" />
       </video>
       <div class="container-fluid h-100">
-        <div class="d-flex justify-content-center align-items-center">
+        <!-- <div class="d-flex justify-content-center align-items-center">
             <div class="titulo-home">AUA</div>
-        </div>
+        </div> -->
       </div>
     </div>
     <tienda class="tienda"></tienda>
