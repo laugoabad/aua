@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <!-- <div class="fondo">
+    <div class="fondo">
       <div class="overlay"></div>
       <video playsinline autoplay muted loop allowfullscreen preload>
-        <source :src="getImgUrl(estacion[1].imagen)" type="video/mp4" />
+        <source :src="getImgUrl(estacion[0].imagen)" type="video/mp4" />
       </video>
       <div class="container-fluid h-100">
         <div class="d-flex justify-content-center align-items-center">
             <div class="titulo-home">AUA</div>
         </div>
       </div>
-    </div> -->
+    </div>
     <tienda class="tienda"></tienda>
   </div>
 </template>
@@ -27,19 +27,17 @@ export default {
 
   data() {
     return {
-      // estacion: [
-      //   { imagen: "otono.mp4"},
-      //   { imagen: "invierno.mp4"},
-      //   { imagen: "primavera.mp4"},
-      //   { imagen: "verano.mp4"}
-      // ],
+      estacion: [
+        { imagen: "cafe-27230.mp4"},
+        { imagen: "loto-43616.mp4"},
+      ],
       
     };
   },
   methods: {
-    // getImgUrl(pic) {
-    //   return require("./../assets/video/" + pic);
-    // },
+    getImgUrl(pic) {
+      return require("./../assets/video/" + pic);
+    },
   }
 };
 </script>
