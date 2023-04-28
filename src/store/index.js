@@ -32,7 +32,6 @@ export default new Vuex.Store({
         imagenes: [
           "manta-3-1.jpg", 
           "manta-3-2.jpg", 
-          "manta-3-3.jpg"
         ],
         descrCorta: "Manta pura lana\nGRIS",
         descrLarga:

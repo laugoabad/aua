@@ -186,6 +186,10 @@ export default {
   margin: 1em;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .card-text {
   font-size: 2em;
   padding: 1em;
